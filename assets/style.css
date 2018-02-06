@@ -1,0 +1,62 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, table, th, td, embed, object {
+  padding: 0;
+  margin: 0; 
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+  fieldset, img, abbr {
+  border: 0;
+}
+address, caption, cite, code, dfn, em, 
+h1, h2, h3, h4, h5, h6, strong, th, var {
+  font-weight: normal;
+  font-style: normal;
+}
+ul,li {
+  list-style: none;
+}
+caption, th {
+  text-align: left;
+}
+q:before, q:after {
+  content: ”;
+}
+a, ins {
+  color: #333;
+  text-decoration: none;
+}
+
+body{
+  max-width: 650px;
+  margin: 0 auto;
+  color: #333;
+  font-family:'微软雅黑',Arial, Helvetica, sans-serif;
+}
+
+.f-ct{
+  margin: 0 18px;
+}
+.f-cl:after{
+  display: block;
+  content: ".";
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+.f-tof{
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  z-index: 2;
+}
